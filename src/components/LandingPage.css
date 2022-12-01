@@ -1,0 +1,73 @@
+.main-container {
+  margin: auto;
+  margin-top: 40px;
+  width: 600px;
+  height: 400px;
+}
+
+#main-heading {
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+  font-weight: 600;
+  font-size: 30px;
+
+  display: block;
+}
+
+#bookmark-btn {
+  display: block;
+  float: right;
+  width: 150px;
+  height: 35px;
+  margin-right: 30px;
+  margin-top: 20px;
+  color: white;
+  background-color: grey;
+  border: none;
+}
+
+#bookmark-btn:hover {
+  cursor: pointer;
+}
+
+#input-field {
+  margin-left: 20px;
+  display: block;
+  width: 450px;
+  float: left;
+  /* margin-top: 5px; */
+  border-radius: 20px;
+}
+
+#search-btn {
+  display: block;
+  margin-right: 30px;
+  float: right;
+  /* margin-top: 5px; */
+  width: 80px;
+}
+
+/* .single-image-container {
+  display: inline-block;
+} */
+
+.images-holder {
+  width: 550px;
+  height: 100px;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.result-images {
+  width: 150px;
+}
+
+.result-images:hover {
+  cursor: pointer;
+}

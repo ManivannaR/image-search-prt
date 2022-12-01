@@ -1,0 +1,17 @@
+.bookmark-images-holder {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  right: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.bookmark-result-images {
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
